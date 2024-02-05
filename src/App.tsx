@@ -14,7 +14,7 @@ function App() {
         <ThemeProvider theme={appTheme}>
             <Box component='main' sx={{
                 height: '100vh',
-                background: (theme) => theme.palette.grey[100],
+                backgroundColor: (theme) => theme.palette.grey[900],
             }}>
                 <Header/>
                 <Layout>
